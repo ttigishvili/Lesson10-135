@@ -1,0 +1,438 @@
+
+/* header starts */
+.header-division {
+  background-image: url(../images/Group\ 65.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 324px;
+  width: 100%;
+}
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.space-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.space-around {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+body {
+  background-color: white;
+}
+/* navigation starts */
+.navigation {
+  max-width: 580px;
+  width: 100%;
+  margin-top: 35px;
+}
+.logo-img {
+  margin-top: 30px;
+}
+.li-list {
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+  /* hover */
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.a-tags {
+  color: white;
+}
+.home-tag {
+  color: #5863f8;
+}
+.rooms::after {
+  content: "\02C5";
+  margin-left: 3px;
+  height: 3.47px;
+  width: 8px;
+}
+.burger-bar{
+  display: none;
+  color: white;
+  font-size:xx-large;
+  margin-top: 15px;
+}
+/* navigation div ends */
+/* conact div starts */
+.contact-devision {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: absolute;
+  float: left;
+  margin-right: 950px;
+  margin-top: 145px;
+  width: 144px;
+}
+.contact-devision-h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+  color: #ffffff;
+}
+.contact-devision-h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+  color: #ffffff;
+  margin-top: 18px;
+}
+
+.home-h3::after {
+  content: "\007C";
+  margin-left: 17.5px;
+}
+.home-h3-2 {
+  margin-left: 17.5px;
+}
+/* contact div ends */
+/* header div ends */
+/* middle section starts */
+/* map starts */
+.map {
+  max-width: 1450px;
+  width: 100%;
+  width: 100%;
+  height: 286px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.map-class {
+  width: 100%;
+  max-width: 1450px;
+  width: 100%;
+  height: 286px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+/* map ends */
+/* middle contact starts */
+.contact-info {
+  width: 331px;
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 60px;
+}
+.contact-h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+  color: #5863f8;
+}
+.contact-h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 42px;
+  font-weight: 300;
+  font-style: normal;
+}
+/* forms starts */
+/* textarea starts */
+.text-area {
+  max-width: 720px;
+  width: 100%;
+  height: 288px;
+  margin-left: 60px;
+  margin-top: 70px;
+  font-family: "Poppins", sans-serif;
+  border: 3px solid #ccc;
+  background-color: #ede8e8;
+  float: left;
+}
+/* textarea ends */
+/* name/subject/email/submit-button starts */
+
+.wraper-form-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.input-box {
+  max-width: 352px;
+  width: 100%;
+  font-size: 13px;
+  height: 60px;
+  border: none;
+}
+.textarea-block {
+  max-width: 352px;
+  width: 100%;
+  height: 60px;
+  resize: none;
+  background-color: #ede8e8;
+}
+
+.box1 {
+  margin-top: 70px;
+  background-color: #ede8e8;
+  margin-left: 15px;
+  border: 3px solid #ccc;
+  font-family: "Poppins", sans-serif;
+}
+.box2 {
+  margin-top: 16px;
+  background-color: #ede8e8;
+  margin-left: 15px;
+  border: 3px solid #ccc;
+  font-family: "Poppins", sans-serif;
+}
+.box3 {
+  margin-top: 16px;
+  background-color: #ede8e8;
+  margin-left: 15px;
+  border: 3px solid #ccc;
+  font-family: "Poppins", sans-serif;
+}
+.textarea-block::-webkit-input-placeholder {
+  padding-top: 20px;
+}
+.textarea-block::-moz-placeholder {
+  padding-top: 20px;
+}
+.textarea-block:-ms-input-placeholder {
+  padding-top: 20px;
+}
+.textarea-block::-ms-input-placeholder {
+  padding-top: 20px;
+}
+.textarea-block::placeholder {
+  padding-top: 20px;
+}
+.box4 {
+  max-width: 352px;
+  width: 100%;
+  margin-top: 16px;
+  background-color: #5863f8;
+  margin-left: 15px;
+  border: 3px solid #61659e;
+  font-family: "Poppins", sans-serif;
+}
+.fa-paper-plane {
+  margin-left: 15px;
+}
+/* name/subject/email/submit-button ends */
+/* middle division starts */
+.middle-division {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1086px;
+  width: 100%;
+
+  margin-left: 129px;
+  margin-top: 50px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+}
+/* 3 boxes starts */
+.middle-box-1 {
+  border: 16px solid;
+  border-color: #5863f8;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #5863f8;
+}
+.middle-blocks-h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+  margin-top: 15px;
+  margin-bottom: 6px;
+}
+.middle-blocks-h3 {
+  font-family: "Poppins", sans-serif;
+  color: #b1b1b1;
+  font-size: 14px;
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+/* 3 boxes ends */
+/* images starts */
+.photo-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+/* images ends */
+/* footer starts */
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 395px;
+  background-color: black;
+  width: 100%;
+  position: relative;
+
+}
+/* div 1 starts */
+.hotel-div {
+  display: inline-block;
+  height: 192px;
+  width: 260px;
+  margin-top: 89px;
+  margin-left: 139px
+
+}
+.hotel-h2 {
+  color: white;
+  font-size: 24px;
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+  font-family: "Poppins", sans-serif;
+}
+.hotel-paragraph {
+  color: #b1b1b1;
+  font-size: 14px;
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+  font-family: "Poppins", sans-serif;
+  margin-top: 22px;
+  margin-bottom: 20px;
+}
+/* div 1 ends */
+.span {
+  display: inline-block;
+  color: #707070;
+  margin-left: 140px;
+  margin-top: 30px;
+}
+/* div n2 starts */
+.useful-links {
+  display: inline-block;
+  height: 154px;
+  width: 90px;
+
+  -webkit-box-orient: vertical;
+
+  -webkit-box-direction: normal;
+
+      -ms-flex-direction: column;
+
+          flex-direction: column;
+
+
+}
+.link-h2 {
+  color: white;
+  font-size: 16px;
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 21px;
+}
+.link-h3 {
+  color: #5863f8;
+  font-size: 14px;
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 7px;
+}
+/* div n2 ends */
+/* div n3 starts */
+
+.useful-links-2 {
+  display: inline-block;
+
+  height: 154px;
+  width: 90px;
+  margin-top: 81px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.link-h3-2 {
+  color: #5863f8;
+  font-size: 14px;
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 11px;
+}
+.link-h2-2 {
+  color: white;
+  font-size: 16px;
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 21px;
+}
+/* div n3 ends */
+/* div n4 starts */
+.contact-info-bottom{
+  display: inline-block;
+  width: 178px;
+  height: 144px;
+  position: absolute;
+
+
+}
+.contact-info-bottom-h2{
+  color: white;
+  font-size: 16px;
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+  font-family: "Poppins", sans-serif;
+}
+.fa-envelope{
+  color: #5863F8;
+  margin-top: 25px;
+}
+.fa-phone{
+  color: #5863F8;
+}
+.fa-location-dot{
+  color: #5863F8;
+}
+.contact-info-bottom-h3 {
+  color: white;
+  font-size: 16px;
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+  font-family: "Poppins", sans-serif;
+  
+
+}
