@@ -1,213 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/fonts.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <title>lesson10</title>
-  </head>
-  <body>
-    <header class="header-division">
-      <div class="flex space-around">
-        <a href="index.html"
-          ><img class="logo-img" src="images/logo.svg" alt="logo"
-        /></a>
-        <nav class="navigation">
-          <ul class="flex space-between">
-            <li class="li-list">
-              <a class="a-tags home-tag" href="index.html">HOME</a>
-            </li>
-            <li class="li-list"><a class="a-tags rooms" href="#">ROOMS</a></li>
-            <li class="li-list"><a class="a-tags" href="#">RESTORAUNT</a></li>
-            <li class="li-list"><a class="a-tags" href="#">ABOUT US</a></li>
-            <li class="li-list"><a class="a-tags" href="#">BLOG</a></li>
-            <li class="li-list"><a class="a-tags" href="#">CONTACT</a></li>
-          </ul>
-        </nav>
-        <div class="burger-bar">
-          <i class="fa-solid fa-bars"></i>
-          
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+     <link rel="stylesheet" href="css/fonts.css">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/responsive.css">
+    <title>flex</title>
+</head>
+<body>
+    <header>
+        <div class="header-div">
+            <a href="index.html"><img class="logo-img" src="images/logo.svg" alt="logo"></a>
+            <nav class="navigation">
+                <ul class="lists">
+                    <li class="li-list"><a href="index.html">HOME</a></li>
+                    <li class="li-list"><a href="#">PORTFOLIO</a></li>
+                    <li class="li-list"><a href="#">ABOUT</a></li>
+                    <li class="li-list"><a href="#">BLOG</a></li>
+                    <li class="li-list"><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="contact-devision">
-          <h2 class="contact-devision-h2">Contact</h2>
-          <h3 class="contact-devision-h3 home-h3">Home</h3>
-          <h3 class="contact-devision-h3 home-h3-2">Contact</h3>
-        </div>
-      </div>
     </header>
-    <section>
-      <div class="map">
-        <iframe
-          class="map-class"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22020.694951968424!2d5.362893986334266!3d44.75544355406675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cab7b39fa1b73d%3A0xe0d50e581d4bbc7c!2s26150%20Die%2C%20France!5e0!3m2!1sen!2sge!4v1656069285322!5m2!1sen!2sge"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-      </div>
-      <div class="contact-info">
-        <h3 class="contact-h3">CONTACT</h3>
-        <h2 class="contact-h2">Contact us to get free support</h2>
-      </div>
-      <div class="form">
-        <form>
-          <textarea class="text-area">Description...</textarea>
-        </form>
-      </div>
-      <div>
-        <form>
-          <div class="wraper-form-flex">
-            <textarea
-              class="textarea-block box1"
-              name="yourmessage"
-              id="message"
-              class="textarea-block"
-              placeholder="Subject"
-              required
-            ></textarea>
-
-            <div class="wraper-form-flex">
-              <input
-                class="input-box box2"
-                type="text"
-                id="firstName"
-                class="input"
-                placeholder="Name / Surname"
-                required
-              />
+    <section class="part1">
+        <div class="block-1">
+            <h2 class="title1">Provide You best Best Ui Service</h2>
+            <p class="txt-1">Mobile App Design and Development Studio. You can hire us</p>
+            <div class="button1">
+                <img src="images/hand.svg" alt="hand">
+                <span class="waveme">Wave Me</span>
             </div>
-
-            <div class="wraper-form-flex">
-              <input
-                class="input-box box3"
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Email"
-                required
-              />
-            </div>
-            <div class="wraper-form-flex">
-              <button class="input-box box4">
-                <span class="submit">Submit</span
-                ><i class="fas fa-paper-plane"></i>
-              </button>
-            </div>
-          </div>
-        </form>
-      </div>
-      <section>
-        <div class="middle-division">
-          <div class="middle-boxes middle-box1">
-            <div class="middle-box-1">
-              <img src="images/mail.svg" alt="mail-svg" />
-            </div>
-            <h2 class="middle-blocks-h2">Email</h2>
-            <h3 class="middle-blocks-h3">
-              example@yahoo.com<br />
-              exampleemail2@yahoo.com
-            </h3>
-          </div>
-
-          <div class="middle-boxes middle-box2">
-            <div class="middle-box-1">
-              <img src="images/phone.svg" alt="mail-svg" />
-            </div>
-            <h2 class="middle-blocks-h2">Phone</h2>
-            <h3 class="middle-blocks-h3">
-              +0 320 422 4254<br />
-              +0 342 552 523
-            </h3>
-          </div>
-
-          <div class="middle-boxes middle-box3">
-            <div class="middle-box-1">
-              <img src="images/map-pin.svg" alt="mail-svg" />
-            </div>
-            <h2 class="middle-blocks-h2">Location</h2>
-            <h3 class="middle-blocks-h3">
-              Main Str Chicago Ilinois<br />
-              Main Street New York City
-            </h3>
-          </div>
         </div>
-        <div class="contact-info">
-          <h3 class="contact-h3">Photos</h3>
-          <h2 class="contact-h2">
-            See our latest photos from restaurant and hotel
-          </h2>
+        <div class="picture-div">
+            <img class="surati1" src="images/bigimage.svg" alt="pic">
         </div>
-        <div class="photo-div">
-          <img
-            src="images/manuel-moreno-DGa0LQ0yDPc-unsplash.svg"
-            alt="image"
-          />
-          <img
-            src="images/mohamed-ajufaan-GFcWwwGNu_w-unsplash.svg"
-            alt="image"
-          />
-          <img
-            src="images/rhema-kallianpur-jbJ-_hw2yag-unsplash.svg"
-            alt="image"
-          />
-        </div>
-      </section>
     </section>
-    <footer class="footer">
-      <div class="hotel-div">
-        <h2 class="hotel-h2">Zetta Hotels</h2>
-        <p class="hotel-paragraph">
-          Our hotel is an image of quality and profesionalism combined with hard
-          work and precision. You can expect only the best services from our
-          staff.
-        </p>
-        <img src="images/001-facebook.svg" alt="facebook" />
-        <img src="images/002-twitter.svg" alt="twitter" />
-        <img src="images/004-google-plus.svg" alt="google" />
-      </div>
-      <div class="useful-links">
-        <h2 class="link-h2">Links</h2>
-        <h3 class="link-h3">Blog</h3>
-        <h3 class="link-h3">Rooms</h3>
-        <h3 class="link-h3">Gift Card</h3>
-        <h3 class="link-h3">Testimonials</h3>
-      </div>
-      <div class="useful-links-2">
-        <h2 class="link-h2-2">Privacy</h2>
-        <h3 class="link-h3-2">Career</h3>
-        <h3 class="link-h3-2">About Us</h3>
-        <h3 class="link-h3-2">Contact Us</h3>
-        <h3 class="link-h3-2">Services</h3>
-      </div>
-      <div class="contact-info-bottom">
-        <h2 class="contact-info-bottom-h2">Contact Info</h2>
-        <h3 class="contact-info-bottom-h3">
-          <i class="fa-solid fa-envelope"></i> example@yahoo.com
-        </h3>
-        <h3 class="contact-info-bottom-h3">
-          <i class="fa-solid fa-phone"></i>+0 320 422 4254
-        </h3>
-        <h3 class="contact-info-bottom-h3">
-          <i class="fa-solid fa-location-dot"></i>Main Str Chicago
-        </h3>
-      </div>
-
-      <span class="span"
-        >Copyright ©2020 All rights reserved | This template is made with love
-        by Marian</span
-      >
-    </footer>
-  </body>
+    <section class="part2">
+        <div class="center-div">
+            <span class="title-span">OUR SERVICES</span>
+            <h3 class="title2">We Provide Best Quality Service </h3>
+            <p class="txt-2">Our commitment to quality ensures that your applications get the best UI design possible. UI/UX design is more than just pixels and animations, but the entire application experience.</p>
+        </div>
+        <div class="row-1">
+            <div class="block-1-1">
+                <img class="surati-1-1" src="images/001-data.svg" alt="image1">
+                <h4 class="block-title1">Website Ui</h4>
+                <p class="block-txt1">Fast, Powerful & Most Secure Network Solutions for Smart Home & Businesses</p>
+                <div class="readmore">
+                    <a href="#"><span class="readspan">Read More</span></a>
+                </div>
+            </div>
+            <div class="block-1-1 block-1-2">
+                <img class="surati-1-1" src="images/003-paint.svg" alt="image2">
+                <h4 class="block-title1">ReDesign</h4>
+                <p class="block-txt1">Fast, Powerful & Most Secure Network Solutions for Smart Home & Businesses</p>
+                <div class="readmore">
+                    <a href="#"><span class="readspan">Read More</span></a>
+                </div>
+            </div>
+            <div class="block-1-1 block-1-1-3">
+                <img class="surati-1-1" src="images/002-phone.svg" alt="image3">
+                <h4 class="block-title1">Application Ui</h4>
+                <p class="block-txt1">Fast, Powerful & Most Secure Network Solutions for Smart Home & Businesses</p>
+                <div class="readmore">
+                    <a href="#"><span class="readspan">Read More</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="row-1 row-1-2">
+            <div class="block-1-1 block-2-1">
+                <img class="surati-1-1" src="images/004-app.svg" alt="image4">
+                <h4 class="block-title1">Mobile App Ui</h4>
+                <p class="block-txt1">Fast, Powerful & Most Secure Network Solutions for Smart Home & Businesses</p>
+                <div class="readmore">
+                    <a href="#"><span class="readspan">Read More</span></a>
+                </div>
+            </div>
+            <div class="block-1-1 block-2-2">
+                <img class="surati-1-1" src="images/006-domain-registration.svg" alt="image5">
+                <h4 class="block-title1">Web App Ui</h4>
+                <p class="block-txt1">Fast, Powerful & Most Secure Network Solutions for Smart Home & Businesses</p>
+                <div class="readmore readmore1">
+                    <a href="#"><span class="readspan">Read More</span></a>
+                </div>
+            </div>
+            <div class="block-1-1 block-2-3">
+                <img class="surati-1-1" src="images/005-repair.svg" alt="image6">
+                <h4 class="block-title1">Web Elements</h4>
+                <p class="block-txt1">Fast, Powerful & Most Secure Network Solutions for Smart Home & Businesses</p>
+                <div class="readmore">
+                    <a href="#"><span class="readspan">Read More</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
 </html>
