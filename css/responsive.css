@@ -1,151 +1,119 @@
-@media (max-width:1024px) {
-    
-
-     
-}
-@media (max-width:768px) {
-    
-    .header-div{
-        height: 200px;
-    }
-    .navigation{
+@media (max-width: 768px) {
+    .navigation {
         display: none;
+    }
+    .burger-bar {
+        display: block;
+    }
+    .forms-div{
+        flex-direction: column;
+        margin-left: 200px;
+        margin-top: 35px;
+        max-width: 500px;
+        width: 100%;
+
+    }
+    .describe-cl{
+      max-width: 600px;
+      width: 100%;
+    }
+
+    .describtion-div{
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+    .map-class {
+      max-width: 650px;
+      width: 100%;
+      height: 286px;
+    }
+    .map {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin-top: 50px;
+    }
+    .contact-info-wrapper{
+      max-width: 650px;
+      width: 100%;
+      
+    
+    }
+    
+    .photo-div{
+        flex-direction: column;
+    }
+    .middle-box3{
+        margin-right: 350px;
+    }
+    .middle-box2{
+        padding-right: 70px;
+    }
+    .middle-box1{
+        padding-right: 20px;
+    }
+    .footer-block-1 {
+        max-width: 260px;
+        width: 100%;
+        height: 190px;
+        position: absolute;
+        top: 50px;
+        left: 20px;
+        transform: scale(0.7);
+      }
+      .useful-links {
+        max-width: 103px;
+        width: 100%;
+        height: 155px;
+        position: absolute;
+        left: 250px;
+        top: 50px;
+        transform: scale(0.7);
+      }
+      .privacy-div {
+        max-width: 78px;
+        width: 100%;
+        height: 155px;
+        position: absolute;
+        right: 80px;
+        top: 51px;
+        transform: scale(0.7);
+      }
+      .info-div {
+        max-width: 198px;
+        width: 100%;
+        height: 145px;
+        position: absolute;
+        left: 400px;
+        top: 50px;
+        transform: scale(0.7);
+      }
+      .copyright-div {
+        max-width: 200px;
+        width: 100%;
+        position: absolute;
+        right: 150px;
+        bottom: 40px;
+        transform: scale(0.7);
         
-    }
-    .row-1-2{
-        flex-direction: column;
-        width: 45%;
-
-    }
-    .row-1{
-        flex-direction: column;
-        width: 45%;
-
-
-    }
-    .block-1-2{
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .block-2-2{
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .surati1{
-        display: none;
-    }
-    .part1{
-        height: 500px;
-        margin-left: 350px;
-        margin-bottom: 150px;
-    }
-    .button1{
-        margin-left: 100px;
-    }
-    .block-1{
-        margin-right: 400px;
-    }
-    .picture-div{
-        display: none;
-    }
-
-}
-@media (max-width:480px) {
-    
-
-    .header-div{
-        height: 200px;
-    }
-    .navigation{
-        display: none;
-        
-    }
-    .row-1-2{
-        flex-direction: column;
-        width: 45%;
-        margin-left: 150px;
-
-    }
-    .row-1{
-        flex-direction: column;
-        width: 45%;
-        margin-left: 150px;
-
-
-    }
-    .block-1-2{
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .block-2-2{
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .surati1{
-        display: none;
-    }
-    .part1{
-        height: 500px;
-        margin-left: 150px;
-        margin-bottom: 150px;
-    }
-    .button1{
-        margin-left: 100px;
-    }
-    .block-1{
-        margin-left: 700px;
-    }
-    .picture-div{
-        display: none;
-    }
-
-}
-@media (max-width:320px) {
-    
-    .header-div{
-        height: 200px;
-    }
-    .navigation{
-        display: none;
-        
-    }
-    .row-1-2{
-        flex-direction: column;
-        width: 45%;
-        margin-left: 150px;
-
-    }
-    .row-1{
-        flex-direction: column;
-        width: 45%;
-        margin-left: 150px;
-
-
-    }
-    .block-1-2{
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .block-2-2{
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .surati1{
-        display: none;
-    }
-    .part1{
-        height: 500px;
-        margin-left: 150px;
-        margin-bottom: 150px;
-    }
-    .button1{
-        margin-left: 100px;
-    }
-    .block-1{
-        margin-left: 700px;
-    }
-    .picture-div{
-        display: none;
-    }
-
+      
+      }
+      .site-a{
+        max-width: 174px;
+        width: 100%;
+        position: absolute;
+        right: 39px;
+        bottom: 30px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        color: #5863F8;
+      }
+      .middle-photo{
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
 }
